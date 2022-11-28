@@ -44,10 +44,9 @@ export const Banner = () => {
             <Row className="align-items-center">
                 <Col xs={12} md={6} xl={7}>
                     <span className="tagline">Welcome to my Portfolio</span>
-                    <h1>{`Hi I'm webcoder `}<span className="wrap">{text}</span></h1>
-                    <p>In culpa magna excepteur consequat ut cupidatat. Culpa nostrud culpa tempor occaecat excepteur minim est sint labore.
-                         Elit nisi non ad laboris veniam irure fugiat ad id voluptate elit sunt aliqua deserunt. Sunt occaecat nulla ipsum in consequat quis ex voluptate labore.</p>
-                <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
+                    <h1>{`Hi I'm Joseph `}<span className="wrap">{text}</span></h1>
+                    <p>I'm a current 2nd term student in BCIT's CST program with a passion for computers and learning more about the business optimization using cloud computing. My current goals are to obtain an internship for the summer of 2022. My personal interests include video games, running, and engineering items in my own home to make my personal life easier.</p>
+                <button  onClick={(e) => {e.preventDefault();window.location.href='https://www.linkedin.com/in/joseph-chan-113822203/';}}>Let's connect<ArrowRightCircle size={25}/></button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                     <img src={headerImg} alt="Header Img"/>

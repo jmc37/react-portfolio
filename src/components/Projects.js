@@ -47,7 +47,7 @@ export const Projects = () => {
         <Row>
         <Col>
         <h2>Projects</h2>
-        <p>Aute aliquip dolor enim incididunt non. Aliquip voluptate nulla labore exercitation elit. Lorem cillum minim et sunt voluptate laboris eu.</p>
+        <p>Here are some of the projects that I've created for both school and personal devlopment. Hope you enjoy!</p>
        <Tab.Container id="projects-tabs" defaultActiveKey="first">
         <Nav variant="pills" defaultActiveKey="/home">
       <Nav.Item>

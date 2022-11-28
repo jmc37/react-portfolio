@@ -36,7 +36,7 @@ export const Skills = () => {
                         <h2>
                             Skills
                         </h2>
-                        <p>Adipisicing culpa eu mollit nulla ad do. Irure tempor tempor sit culpa culpa do est labore labore eiusmod ut. Qui excepteur qui ipsum Lorem exercitation aliqua et magna sint. Fugiat excepteur est et id elit. Consectetur aliqua labore cillum nostrud ut. Aute incididunt duis irure ipsum ad laboris officia.</p>
+                        <p>Over the past couple years I have obtained an assortment of skills that have  increased both my language arsenal as well as my soft skills in areas such as agile devlopment and scrum meetings. I'm always looking for new ways to grow and increase my knowledge regarding the newest tech availible.</p>
                    <Carousel responsive={responsive} infinite={true} className="skill-slider">
                    <div className="item">
                     <img src={meter1} alt="Image" />
@@ -44,15 +44,15 @@ export const Skills = () => {
                    </div>
                    <div className="item">
                     <img src={meter2} alt="Image" />
-                    <h5>Brand Identity</h5>
+                    <h5>Backend Development</h5>
                    </div>
                    <div className="item">
                     <img src={meter3} alt="Image" />
-                    <h5>Logo Design</h5>
+                    <h5>Agile Devlopment</h5>
                    </div>
                    <div className="item">
                     <img src={meter1} alt="Image" />
-                    <h5>Web Development</h5>
+                    <h5>Project Management</h5>
                    </div>
                    </Carousel>
                     </div>

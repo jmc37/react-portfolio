@@ -45,11 +45,11 @@ const onUpdateActiveLink = (value) => {
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
-                <a href='#'><img src={navIcon1} alt =""/></a>
+                <a href='https://www.linkedin.com/in/joseph-chan-113822203/'><img src={navIcon1} alt =""/></a>
                 <a href='#'><img src={navIcon2} alt =""/></a>
-                <a href='#'><img src={navIcon3} alt =""/></a>
+                <a href='https://www.instagram.com/bcitcomputingclub/'><img src={navIcon3} alt =""/></a>
             </div>
-            <button className='vvd' onClick={() => console.log('connect')}><span>Let's connect</span></button>
+            <button className='vvd' onClick={(e) => {e.preventDefault();window.location.href='https://www.linkedin.com/in/joseph-chan-113822203/';}}><span>Let's connect</span></button>
           </span>
         </Navbar.Collapse>
       </Container>
