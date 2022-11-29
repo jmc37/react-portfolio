@@ -36,7 +36,7 @@ export const Skills = () => {
                         <h2>
                             Skills
                         </h2>
-                        <p>Over the past couple years I have obtained an assortment of skills that have  increased both my language arsenal as well as my soft skills in areas such as agile devlopment and scrum meetings. I'm always looking for new ways to grow and increase my knowledge regarding the newest tech availible.</p>
+                        <p>Over the past couple years I have obtained an assortment of skills that have  increased both my language arsenal as well as my soft skills in areas such as agile devlopment and scrum meetings. I'm always looking for new ways to grow and increase my knowledge regarding the newest tech available.</p>
                    <Carousel responsive={responsive} infinite={true} className="skill-slider">
                    <div className="item">
                     <img src={meter1} alt="Image" />
