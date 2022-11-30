@@ -4,6 +4,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg2 from "../assets/img/project1.png";
 import projImg3 from "../assets/img/project2.png";
 import projImg1 from "../assets/img/project3.png";
+import projImg4 from "../assets/img/sap-hackathon.png";
+
 
 
 export const Projects = () => {
@@ -25,9 +27,9 @@ export const Projects = () => {
             imgUrl: projImg3,
           },
           {
-            title:  "Custom Pokedex",
-            description: "Built with HTML for frontend, (JavaScript, Express, Node.js) for backend, and MongoDB for database. Designed and implemented working pokedex featuring online marketplace, stored database for users and purchases, and working card game utilizing API requests.",
-            imgUrl: projImg1,
+            title:  "SAP Rewards",
+            description: "Submission for SAP Hackathon 2022. Technology used include HTML, JavaScript, Tailwind CSS. Our application provided a solution to the post-covid work environment that incentived employees to return to the office post covid.",
+            imgUrl: projImg4,
           },
           {
             title: "React Portfolio",
