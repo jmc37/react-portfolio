@@ -31,16 +31,7 @@ export const Projects = () => {
             description: "Submission for SAP Hackathon 2022. Technology used include HTML, JavaScript, Tailwind CSS. Our application provided a solution to the post-covid work environment that incentived employees to return to the office post covid.",
             imgUrl: projImg4,
           },
-          {
-            title: "React Portfolio",
-            description: "A personal portfolio made with React showcasing my past projects.",
-            imgUrl: projImg2,
-          },
-          {
-            title: "Terra Studium",
-            description: "Developed using JavaScript, hosted on AWS Elastic Beanstalk, with MySQL database. Special contributions include frogger type game using OOP with HTML Canvas, JavaScript, and overall UX/UI of application",
-            imgUrl: projImg3,
-          },
+        
         ];
 
     return(
