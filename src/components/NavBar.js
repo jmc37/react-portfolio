@@ -1,7 +1,7 @@
 import {useState, useEffect} from "react";
 import { Navbar, Container, Nav} from "react-bootstrap";
 
-import logo from '../assets/img/vancityjoe.png';
+import logo from '../assets/img/favicon.ico';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -46,7 +46,7 @@ const onUpdateActiveLink = (value) => {
           <span className='navbar-text'>
             <div className='social-icon'>
                 <a href='https://www.linkedin.com/in/joseph-chan-113822203/'><img src={navIcon1} alt =""/></a>
-                <a href='#'><img src={navIcon2} alt =""/></a>
+                <a href='https://github.com/jmc37'><img src={navIcon2} alt =""/></a>
                 <a href='https://www.instagram.com/bcitcomputingclub/'><img src={navIcon3} alt =""/></a>
             </div>
             <button className='vvd' onClick={(e) => {e.preventDefault();window.location.href='https://www.linkedin.com/in/joseph-chan-113822203/';}}><span>Let's connect</span></button>

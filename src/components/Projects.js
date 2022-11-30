@@ -10,33 +10,33 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Custom Pokedex",
+            description: "Built with HTML for frontend, (JavaScript, Express, Node.js) for backend, and MongoDB for database. Designed and implemented working pokedex featuring online marketplace, stored database for users and purchases, and working card game utilizing API requests.",
             imgUrl: projImg1,
           },
           {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "React Portfolio",
+            description: "A personal portfolio made with React showcasing my past projects.",
             imgUrl: projImg2,
           },
           {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Terra Studium",
+            description: "Developed using JavaScript, hosted on AWS Elastic Beanstalk, with MySQL database. Special contributions include frogger type game using OOP with HTML Canvas, JavaScript, and overall UX/UI of application",
             imgUrl: projImg3,
           },
           {
-            title: "Business Startup",
-            description: "Design & Development",
+            title:  "Custom Pokedex",
+            description: "Built with HTML for frontend, (JavaScript, Express, Node.js) for backend, and MongoDB for database. Designed and implemented working pokedex featuring online marketplace, stored database for users and purchases, and working card game utilizing API requests.",
             imgUrl: projImg1,
           },
           {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "React Portfolio",
+            description: "A personal portfolio made with React showcasing my past projects.",
             imgUrl: projImg2,
           },
           {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Terra Studium",
+            description: "Developed using JavaScript, hosted on AWS Elastic Beanstalk, with MySQL database. Special contributions include frogger type game using OOP with HTML Canvas, JavaScript, and overall UX/UI of application",
             imgUrl: projImg3,
           },
         ];
