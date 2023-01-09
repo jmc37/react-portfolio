@@ -76,7 +76,12 @@ export const Contact = () => {
                   }
                 >
                   <h2>Get In Touch</h2>
-                  <form onSubmit={handleSubmit}>
+                  <form
+                    onSubmit={(e) => {
+                      e.preventDefault();
+                      handleSubmit();
+                    }}
+                  >
                     <Row>
                       <Col size={12} sm={6} className="px-1">
                         <input
