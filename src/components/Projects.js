@@ -5,6 +5,8 @@ import projImg2 from "../assets/img/project1.png";
 import projImg3 from "../assets/img/project2.png";
 import projImg1 from "../assets/img/project3.png";
 import projImg4 from "../assets/img/sap-hackathon.png";
+import projImg5 from "../assets/img/project-5.png";
+
 
 
 
@@ -18,7 +20,7 @@ export const Projects = () => {
           },
           {
             title: "React Portfolio",
-            description: "A personal portfolio made with React showcasing my past projects.",
+            description: "A personal portfolio made with React showcasing my past projects. Deployed on Google Cloud Platform.",
             imgUrl: projImg2,
           },
           {
@@ -30,6 +32,11 @@ export const Projects = () => {
             title:  "SAP Rewards",
             description: "Submission for SAP Hackathon 2022. Technology used include HTML, JavaScript, Tailwind CSS. Our application provided a solution to the post-covid work environment that incentived employees to return to the office post covid.",
             imgUrl: projImg4,
+          },
+          {
+            title:  "FriendTrip",
+            description: "Developed using HTML, JavaScript, CSS, and Google Firebase for its database.FriendTrip is a tour guide service similar to Airbnb but for tour guides instead. The benefit being that they got to experience the city from the eyes of a local.",
+            imgUrl: projImg5,
           },
         
         ];
